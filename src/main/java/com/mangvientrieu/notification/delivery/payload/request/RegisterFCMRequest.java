@@ -1,9 +1,10 @@
-package com.mangvientrieu.notification.storage.payload.request;
+package com.mangvientrieu.notification.delivery.payload.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -11,11 +12,12 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-public class RegisterUserDeviceRequest implements Serializable {
+public class RegisterFCMRequest implements Serializable {
+	@Serial
 	private static final long serialVersionUID = 470731800468837860L;
 
 	@NotBlank
-	private String userId;
-	@NotBlank
 	private String deviceId;
+	@NotBlank
+	private String fcmToken;
 }

@@ -1,5 +1,6 @@
 package com.mangvientrieu.notification.template.annotation;
 
+import com.mangvientrieu.notification.template.config.NotificationTemplateSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.Documented;
@@ -18,6 +19,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited
-@Import(EnableNotificationDelivery.class)
-public @interface EnableNotificationDelivery {
+@Import(NotificationTemplateSelector.class)
+public @interface EnableNotificationTemplate {
 }

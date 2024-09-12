@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration
-@AutoConfigurationPackage(basePackages = "com.mangvientrieu.notification.delivery")
-public class NotificationDeliverySelector {
+@AutoConfigurationPackage(basePackages = "com.mangvientrieu.notification.template")
+public class NotificationTemplateSelector {
 }

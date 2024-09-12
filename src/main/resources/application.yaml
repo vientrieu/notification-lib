@@ -1,6 +1,9 @@
 server:
   port: 1603
 
+firebase:
+  credential: google-cloud-credential.json
+
 spring:
   application:
     name: notification

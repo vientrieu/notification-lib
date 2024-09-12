@@ -1,5 +1,6 @@
 package com.mangvientrieu.notification.delivery.annotation;
 
+import com.mangvientrieu.notification.delivery.config.NotificationDeliverySelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.Documented;
@@ -18,6 +19,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited
-@Import(EnableNotificationDelivery.class)
+@Import(NotificationDeliverySelector.class)
 public @interface EnableNotificationDelivery {
 }

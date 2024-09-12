@@ -1,7 +1,7 @@
 package com.mangvientrieu.notification.delivery.service;
 
-import com.mangvientrieu.notification.storage.payload.request.RegisterFCMRequest;
-import com.mangvientrieu.notification.storage.payload.request.RegisterUserDeviceRequest;
+import com.mangvientrieu.notification.delivery.payload.request.RegisterFCMRequest;
+import com.mangvientrieu.notification.delivery.payload.request.RegisterUserDeviceRequest;
 
 import java.util.List;
 
