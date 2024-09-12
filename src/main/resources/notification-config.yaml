@@ -1,0 +1,9 @@
+delivery:
+  firebase:
+    credential: google-cloud-credential.json
+
+storage:
+  a: a
+
+template:
+  a: a

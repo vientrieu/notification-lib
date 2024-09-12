@@ -14,7 +14,6 @@ import java.lang.annotation.Target;
  * @author mangvientrieu
  */
 
-
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
