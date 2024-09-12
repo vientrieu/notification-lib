@@ -1,0 +1,8 @@
+server:
+  port: 1603
+
+spring:
+  application:
+    name: notification
+  main:
+    allow-bean-definition-overriding: true
